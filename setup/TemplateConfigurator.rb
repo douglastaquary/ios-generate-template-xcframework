@@ -116,7 +116,7 @@ module Pod
         'NAME.podspec', 
         '.travis.yml', 
         podfile_path, 
-        'POD/NAME.h', 
+        'Pod/NAME.h', 
         'Example/'+@pod_name+'Tests/'+@pod_name+'Tests.swift',
         'build.sh'
       ]
