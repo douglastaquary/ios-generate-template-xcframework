@@ -164,7 +164,7 @@ module Pod
       FileUtils.mv "POD_LICENSE", "LICENSE"
       FileUtils.mv "NAME.podspec", "#{pod_name}.podspec"
 
-      FileUtils.mv "POD/NAME.h", "POD/#{pod_name}.h"
+      FileUtils.mv "Pod/NAME.h", "Pod/#{pod_name}.h"
       # FileUtils.mv "POD/Classes/NAME.m", "POD/Classes/#{pod_name}.m"
     end
 
